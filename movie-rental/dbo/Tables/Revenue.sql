@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[revenue]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+	[movieId] UNIQUEIDENTIFIER NOT NULL, 
+	[amount] BIGINT NOT NULL, 
+	[createdAt] DATETIME NULL
+)
